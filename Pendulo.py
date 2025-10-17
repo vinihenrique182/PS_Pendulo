@@ -1,4 +1,4 @@
-#Vinícius Henrique Colere Soares - RA: 2751585
+#Vinícius Henrique Colere Soares
 
 import cv2
 import numpy as np
@@ -56,3 +56,4 @@ df = pd.DataFrame({"frame": frames, "tempo (s)": tempos, "x (px)": xs, "y (px)":
 df.to_csv(output_csv, index=False)
 
 print("salvo em", output_csv)
+
